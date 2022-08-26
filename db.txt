@@ -1,0 +1,17 @@
+Nome tabella: Autovetture
+
+targa - stringa - VARCHAR(10) - PRIMARY_KEY - AUTO_INCREMENT
+Marca - stringa - VARCHAR(10) - NOTNULL
+Serie - stringa - VARGHAR(5) - NOTNULL
+Luogo_Produzione - stringa - VARCHAR(10) NOTNULL
+Peso - float(5,2) - NULL
+Modello - stringa - VARCHAR(8) NOTNULL
+Potenza - stringa - VARCHAR(5) NOTNULL
+Anno - data - YEAR - NOTNULL
+Alimentazione - stringa NOTNULL
+Full_Optional - stringa NULL
+Numero_Porte - intero - TINYINT NULL
+Cambio_Marce - stringa - VARCHAR(20) NOTNULL
+Tipo_Fari - stringa - VARCHAR(7) NULL
+Lunghezza - float(5,2) - NULL
+prezzo - float(9,2) - NOTNULL
